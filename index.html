@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,28 +13,14 @@
   <link rel="stylesheet" href="css/responsif.css">
   <link rel="stylesheet" href="css/buciners.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-  <style>
-    .gambar {
-      max-width: 100%; /* Ensure images are responsive */
-      height: auto; /* Maintain aspect ratio */
-      display: block; /* Ensure block display */
-      margin: 0 auto; /* Center align images */
-    }
-    .dalemnya_halaman {
-      position: relative; /* Enable absolute positioning within this container */
-    }
-    .ucapan1, .ucapan2, .ucapan3 {
-      position: absolute; /* Position text absolutely */
-      top: 10%; /* Adjust as needed */
-      left: 10%; /* Adjust as needed */
-      color: white; /* Ensure text is readable */
-      background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
-      padding: 10px;
-      border-radius: 5px;
-    }
-  </style>
+
 </head>
+
 <body>
+  <!--Author    : Wafa Rifki Anafin-->
+  <!--Facebook  : https://t.me/fckualot-->
+  <!--Instagram : https://instagram.com/san.rio31-->
+  <!--Website   : https://t.me/riogroupsupport.tk-->
   <div class="kontener2" id="kontener2">
     <h1>Hai sayang kuu🥰</h1>
     <button class="tombol" id="tombol">Mulai Sekarang ♥</button>
@@ -45,40 +32,59 @@
       <a class="tombol_menu" onclick="klikMenu()"></a>
       <section class="halaman1 dalemnya_halaman" onclick="PindahKeHalaman(0)">
         <h1 class="judul_halaman">Aku</h1>
+        <br>
         <img src="gambar/gambar1.jpeg" alt="Web Bucin Html, Css, Js" class="gambar">
+        <br>
         <div class="ucapan1">
-          <p class="isiucapan1">Aku butuh kamu seperti jantung membutuhkan detik. Aku menginginkanmu seperti gurun pasir yang mengharapkan hujan.</p>
+          <p class="isiucapan1">Aku butuh kamu seperti jantung membutuhkan detik. Aku menginginkanmu seperti gurun pasir
+            yang mengharapkan hujan.</p>
         </div>
       </section>
       <section class="halaman2 dalemnya_halaman" onclick="PindahKeHalaman(1)">
         <h1 class="judul_halaman">Sayang</h1>
+        <br>
         <img src="gambar/gambar2.jpeg" alt="Web Bucin Html, Css, Js" class="gambar">
+        <br>
         <div class="ucapan2">
-          <p class="isiucapan2">Aku Menyayangimu bukan karena siapa dirimu melainkan apa yang terjadi saat aku bersamamu.</p>
+          <p class="isiucapan2">Aku Menyayangimu bukan karena siapa dirimu melainkan apa yang terjadi saat aku
+            bersamamu.
+          </p>
         </div>
       </section>
       <section class="halaman3 dalemnya_halaman" onclick="PindahKeHalaman(2)">
         <h1 class="judul_halaman">Kamu</h1>
+        <br>
         <img src="gambar/gambar3.jpeg" alt="Web Bucin Html, Css, Js" class="gambar">
+        <br>
         <div class="ucapan3">
-          <p class="isiucapan3">Aku selalu berharap untuk dapat hadir di setiap mimpi indahmu. Kemudian, aku akan mengatakan bahwa aku akan selalu mencintaimu dan selalu ada untukmu sayang ku🥰.</p>
+          <p class="isiucapan3">Aku selalu berharap untuk dapat hadir di setiap mimpi indahmu. Kemudian, aku akan
+            mengatakan bahwa aku akan selalu mencintaimu dan selalu ada untukmu sayang ku🥰.</p>
         </div>
       </section>
       <section class="halaman4 dalemnya_halaman" onclick="PindahKeHalaman(3)">
         <h1 class="judul_halaman">I Love You Jesha🥰</h1>
+        <br>
         <h1 id="waktu"></h1>
         <script type="text/javascript">
           document.write("<center>");
           var hari = new Date();
           var jam = hari.getHours();
           if (jam >= 0 && jam < 12) {
-            document.write("<h1 class='ucapan'>Selamat Pagi Kamu ♥ !</h1><p class='isiucapan'>Saat aku membuka mata setiap harinya, yang ingin aku lihat hanya kamu. <3<p>");
+            document.write(
+              "<h1 class='ucapan'>Selamat Pagi Kamu ♥ !</h1><p class='isiucapan'>Saat aku membuka mata setiap harinya, yang ingin aku lihat hanya kamu. <3<p>"
+            );
           } else if (jam == 12) {
-            document.write("<h1 class='ucapan'>Selamat Siang Kamu :( ♥!</h1><p class='isiucapan'>Jangan Lupa Makan ya, aku gamau denger km ngeluh sakit perut. i love you a lot <3<p>");
+            document.write(
+              "<h1 class='ucapan'>Selamat Siang Kamu :( ♥!</h1><p class='isiucapan'>Jangan Lupa Makan ya, aku gamau denger km ngeluh sakit perut. i love you a lot <3<p>"
+            );
           } else if (jam >= 12 && jam <= 17) {
-            document.write("<h1 class='ucapan'>Selamat Siang Menjelang Sore !</h1><p class='isiucapan'>Jangan Lupa Mandi + Jam demi jam telah kamu lalui dengan baik, persiapkan diri kamu untuk aktifitas yang akan datang ya manis. i love you <3<p>");
+            document.write(
+              "<h1 class='ucapan'>Selamat Siang Menjelang Sore !</h1><p class='isiucapan'>Jangan Lupa Mandi + Jam demi jam telah kamu lalui dengan baik, persiapkan diri kamu untuk aktifitas yang akan datang ya manis. i love you <3<p>"
+            );
           } else {
-            document.write("<h1 class='ucapan'>Selamat Malam Hahah  !</h1><p class='isiucapan'>Setelah seharian beraktifitas, kini telah tiba saatnya untuk beristirahat, rebahkan dirimu di kasur kesayanganmu. kabari aku disetiap kegiatanmu. i love you mimpi indah ♥ <3<p>");
+            document.write(
+              "<h1 class='ucapan'>Selamat Malam Hahah  !</h1><p class='isiucapan'>Setelah seharian beraktifitas, kini telah tiba saatnya untuk beristirahat, rebahkan dirimu di kasur kesayanganmu. kabari aku disetiap kegiatanmu. i love you mimpi indah ♥ <3<p>"
+            );
           }
           document.write("</center>");
         </script>
@@ -86,7 +92,9 @@
     </div>
   </div>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.0/jquery.min.js" integrity="sha512-synHs+rLg2WDVE9U0oHVJURDCiqft60GcWOW7tXySy8oIr0Hjl3K9gv7Bq/gSj4NDVpc5vmsNkMGGJ6t2VpUMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.0/jquery.min.js"
+    integrity="sha512-synHs+rLg2WDVE9U0oHVJURDCiqft60GcWOW7tXySy8oIr0Hjl3K9gv7Bq/gSj4NDVpc5vmsNkMGGJ6t2VpUMA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdn.rawgit.com/bungfrangki/efeksalju/2a7805c7/efek-salju.js" type="text/javascript"></script>
   <script src="js/script.js"></script>
   <script>
@@ -97,9 +105,16 @@
         menit = waktu.getMinutes().toString().length == 1 ? '0' + waktu.getMinutes() : waktu.getMinutes(),
         jam = waktu.getHours().toString().length == 1 ? '0' + waktu.getHours() : waktu.getHours(),
         ampm = waktu.getHours() >= 12 ? 'PM' : 'AM',
-        bulan = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'],
+        bulan = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober',
+          'November', 'Desember'
+        ],
         hari = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu'];
-      return '<h1 class="ml1"><span class="text-wrapper"><span class="line line1"></span><span class="letters">' + hari[waktu.getDay()] + ', ' + waktu.getDate() + ' ' + bulan[waktu.getMonth()] + ' ' + waktu.getFullYear() + '</span><span class="line line2"></span></span></h1><p class="ml2"> ' + jam + ':' + menit + ' ' + ampm + ' </p>';
+      return '<h1 class="ml1"><span class="text-wrapper"><span class="line line1"></span><span class="letters">' + hari[
+          waktu.getDay()] +
+        ', ' + waktu.getDate() + ' ' + bulan[waktu.getMonth()] +
+        ' ' + waktu.getFullYear() + '</span><span class="line line2"></span></span></h1><p class="ml2"> ' + jam + ':' +
+        menit + ' ' + ampm + ' </p>';
+
     }
   </script>
   <script>
@@ -152,12 +167,12 @@
       })
       .add({
         targets: '.ml2 .letter',
-        scale: [4, 1],
+        scale: [0.3, 1],
         opacity: [0, 1],
         translateZ: 0,
         easing: "easeOutExpo",
-        duration: 950,
-        delay: 1400
+        duration: 600,
+        delay: (el, i) => 70 * (i + 1)
       }).add({
         targets: '.ml2',
         opacity: 1,
@@ -166,5 +181,35 @@
         delay: 1000
       });
   </script>
+  <script>
+    function PindahKeHalaman(halaman) {
+      var halamanAktif = document.querySelector(".halaman1:not(.hidden), .halaman2:not(.hidden), .halaman3:not(.hidden), .halaman4:not(.hidden)");
+      if (halamanAktif) {
+        halamanAktif.classList.add("hidden");
+      }
+      switch (halaman) {
+        case 0:
+          document.querySelector(".halaman1").classList.remove("hidden");
+          break;
+        case 1:
+          document.querySelector(".halaman2").classList.remove("hidden");
+          break;
+        case 2:
+          document.querySelector(".halaman3").classList.remove("hidden");
+          break;
+        case 3:
+          document.querySelector(".halaman4").classList.remove("hidden");
+          break;
+      }
+    }
+
+    function klikMenu() {
+      var menu = document.querySelector(".tombol_menu");
+      menu.classList.toggle("active");
+      var halaman = document.querySelector(".buka_menu");
+      halaman.classList.toggle("hidden");
+    }
+  </script>
 </body>
+
 </html>
