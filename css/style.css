@@ -74,7 +74,6 @@ html {
   width: 100%;
   height: 100%;
   -webkit-transition: -webkit-transform 0.3s;
-
 }
 
 section .gambar {
@@ -149,6 +148,33 @@ section.halaman4 {
   -webkit-transition-delay: 0.15s;
 }
 
+.halaman4 .ucapan4 {
+  width: 100%;
+  text-align: center;
+}
+
+.halaman4 .isiucapan4 {
+  display: inline-block;
+  width: 80%;
+  color: #404040;
+}
+
+section.halaman5 {
+  background: #b0c4de;
+  -webkit-transition-delay: 0.2s;
+}
+
+.halaman5 .ucapan5 {
+  width: 100%;
+  text-align: center;
+}
+
+.halaman5 .isiucapan5 {
+  display: inline-block;
+  width: 80%;
+  color: #404040;
+}
+
 section.after {
   -webkit-transform: translateY(100%);
 }
@@ -168,8 +194,6 @@ section.after {
 .tombol_menu:active {
   opacity: 0.2;
 }
-
-
 
 .judul_halaman {
   color: white;
@@ -214,6 +238,10 @@ section.after {
   -webkit-transition-delay: 0.05s;
 }
 
+.page-halaman2 section.halaman5 {
+  -webkit-transition-delay: 0.2s;
+}
+
 .buka_menu section {
   cursor: pointer;
 }
@@ -223,24 +251,25 @@ section.after {
   -webkit-transition-delay: 0.15s;
 }
 
-
 .buka_menu section.halaman2 {
   -webkit-transform: translateY(140px);
   -webkit-transition-delay: 0.1s;
 }
-
 
 .buka_menu section.halaman3 {
   -webkit-transform: translateY(210px);
   -webkit-transition-delay: 0.05s;
 }
 
-
 .buka_menu section.halaman4 {
   -webkit-transform: translateY(280px);
   -webkit-transition-delay: 0s;
 }
 
+.buka_menu section.halaman5 {
+  -webkit-transform: translateY(350px);
+  -webkit-transition-delay: 0.2s;
+}
 
 .buka_menu.page-halaman1 section.halaman1 {
   -webkit-transition-delay: 0s;
@@ -256,6 +285,10 @@ section.after {
 
 .buka_menu.page-halaman1 section.halaman4 {
   -webkit-transition-delay: 0.15s;
+}
+
+.buka_menu.page-halaman1 section.halaman5 {
+  -webkit-transition-delay: 0.2s;
 }
 
 .buka_menu.page-halaman2 section.halaman1 {
@@ -274,16 +307,18 @@ section.after {
   -webkit-transition-delay: 0.15s;
 }
 
+.buka_menu.page-halaman2 section.halaman5 {
+  -webkit-transition-delay: 0.2s;
+}
+
 /*Animasi Bekgron*/
 @keyframes animasiBegron {
   0% {
     background-position: 0% 50%;
   }
-
   50% {
     background-position: 100% 50%;
   }
-
   100% {
     background-position: 0% 50%;
   }
