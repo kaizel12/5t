@@ -13,12 +13,17 @@ function klikMenu() {
 function PindahKeHalaman(page) {
   var dalemnya_kontener = document.getElementsByClassName('dalemnya_kontener')[0];
   var sections = document.getElementsByClassName('dalemnya_halaman');
+  
   for (var i = 0; i < sections.length; i++) {
     sections[i].classList.remove('before', 'after');
-    if (i > page) {
+    if (i < page) {
+      sections[i].classList.add('before');
+    } else if (i > page) {
       sections[i].classList.add('after');
     }
   }
-  dalemnya_kontener.classList.remove('buka_menu', 'page-halaman1', 'page-halaman2', 'page-halaman3', 'page-halaman4');
+  
+  dalemnya_kontener.classList.remove('buka_menu');
+  dalemnya_kontener.classList.remove('page-halaman1', 'page-halaman2', 'page-halaman3', 'page-halaman4', 'page-halaman5');
   dalemnya_kontener.classList.add('page-' + pages[page]);
 }
