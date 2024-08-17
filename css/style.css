@@ -30,7 +30,7 @@ html {
 }
 
 .kontener2 .tombol {
-  padding: 10px 30px 10px 30px;
+  padding: 10px 30px 10px 30px 10px;
   background: transparent;
   color: #BCCFD7;
   outline: none;
@@ -42,7 +42,7 @@ html {
 
 .kontener2 .tombol:hover {
   cursor: pointer;
-  padding: 10px 30px 10px 30px;
+  padding: 10px 30px 10px 30px 10px;
   background: #BCCFD7;
   color: #f5f5f5;
   outline: none;
@@ -64,7 +64,7 @@ html {
   height: 94%;
   overflow: hidden;
   position: relative;
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px 10px;
 }
 
 .dalemnya_halaman {
