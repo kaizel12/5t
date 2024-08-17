@@ -30,7 +30,7 @@ html {
 }
 
 .kontener2 .tombol {
-  padding: 10px 30px 10px 30px 10px;
+  padding: 10px 30px 10px 30px 30px;
   background: transparent;
   color: #BCCFD7;
   outline: none;
@@ -42,7 +42,7 @@ html {
 
 .kontener2 .tombol:hover {
   cursor: pointer;
-  padding: 10px 30px 10px 30px 10px;
+  padding: 10px 30px 10px 30px 30px;
   background: #BCCFD7;
   color: #f5f5f5;
   outline: none;
@@ -157,7 +157,7 @@ section.halaman4 {
 .halaman4 .isiucapan4 {
   display: inline-block;
   width: 80%;
-  color: #f5f5f5;
+  color: #404040;
 }
 
 section.halaman5 {
@@ -211,7 +211,7 @@ section.after {
 }
 
 .page-halaman1 section.halaman4 {
-  -webkit-transition-delay: 0.1s;
+  -webkit-transition-delay: 0.15s;
 }
 
 .page-halaman1 section.halaman5 {
@@ -231,11 +231,11 @@ section.after {
 }
 
 .page-halaman2 section.halaman4 {
-  -webkit-transition-delay: 0.1s;
+  -webkit-transition-delay: 0.5s;
 }
 
 .page-halaman2 section.halaman5 {
-  -webkit-transition-delay: 0.05s;
+  -webkit-transition-delay: 0.1s;
 }
 
 .buka_menu section {
@@ -260,12 +260,12 @@ section.after {
 }
 
 .buka_menu section.halaman4 {
-  -webkit-transform: translateY(210px);
+  -webkit-transform: translateY(280px);
   -webkit-transition-delay: 0.05s;
 }
 
 .buka_menu section.halaman5 {
-  -webkit-transform: translateY(280px);
+  -webkit-transform: translateY(350px);
   -webkit-transition-delay: 0s;
 }
 
