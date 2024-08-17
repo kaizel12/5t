@@ -13,7 +13,6 @@
   <link rel="stylesheet" href="css/responsif.css">
   <link rel="stylesheet" href="css/buciners.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-
 </head>
 
 <body>
@@ -21,6 +20,7 @@
   <!--Facebook  : https://facebook.com/wafarifkianafin-->
   <!--Instagram : https://instagram.com/wafarifki_-->
   <!--Website   : https://wafarifki.tk-->
+
   <div class="kontener2" id="kontener2">
     <h1>Hai Sayangkuu🥰</h1>
     <button class="tombol" id="tombol">Mulai Sekarang</button>
@@ -30,37 +30,38 @@
     <div class="dalemnya_kontener">
       <h1 class="judul_halaman">love u more sayang</h1>
       <a class="tombol_menu" onclick="klikMenu()"></a>
+
+      <!-- Existing Sections -->
       <section class="halaman1 dalemnya_halaman" onclick="PindahKeHalaman(0)">
         <h1 class="judul_halaman">Aku</h1>
         <br>
         <img src="gambar/gambar1.jpg" alt="Web Bucin Html, Css, Js" class="gambar">
         <br>
         <div class="ucapan1">
-          <p class="isiucapan1">Aku butuh kamu seperti jantung membutuhkan detik. Aku menginginkanmu seperti gurun pasir
-            yang mengharapkan hujan.</p>
+          <p class="isiucapan1">Aku butuh kamu seperti jantung membutuhkan detik. Aku menginginkanmu seperti gurun pasir yang mengharapkan hujan.</p>
         </div>
       </section>
+
       <section class="halaman2 dalemnya_halaman" onclick="PindahKeHalaman(1)">
         <h1 class="judul_halaman">Sayang</h1>
         <br>
         <img src="gambar/gambar2.jpg" alt="Web Bucin Html, Css, Js" class="gambar">
         <br>
         <div class="ucapan2">
-          <p class="isiucapan2">Aku Menyayangimu bukan karena siapa dirimu melainkan apa yang terjadi saat aku
-            bersamamu.
-          </p>
+          <p class="isiucapan2">Aku Menyayangimu bukan karena siapa dirimu melainkan apa yang terjadi saat aku bersamamu.</p>
         </div>
       </section>
+
       <section class="halaman3 dalemnya_halaman" onclick="PindahKeHalaman(2)">
         <h1 class="judul_halaman">Kamu</h1>
         <br>
         <img src="gambar/gambar3.jpg" alt="Web Bucin Html, Css, Js" class="gambar">
         <br>
         <div class="ucapan3">
-          <p class="isiucapan3">Aku selalu berharap untuk dapat hadir di setiap mimpi indahmu. Kemudian, aku akan
-            mengatakan bahwa aku akan selalu merindukanmu.</p>
+          <p class="isiucapan3">Aku selalu berharap untuk dapat hadir di setiap mimpi indahmu. Kemudian, aku akan mengatakan bahwa aku akan selalu merindukanmu.</p>
         </div>
       </section>
+
       <section class="halaman4 dalemnya_halaman" onclick="PindahKeHalaman(3)">
         <h1 class="judul_halaman">I Love You Jesha🥰</h1>
         <br>
@@ -89,6 +90,17 @@
           document.write("</center>");
         </script>
       </section>
+
+      <!-- New Section -->
+      <section class="halaman5 dalemnya_halaman" onclick="PindahKeHalaman(4)">
+        <h1 class="judul_halaman">Cinta Kamu</h1>
+        <br>
+        <img src="gambar/gambar7.jpg" alt="Cinta Kamu" class="gambar">
+        <br>
+        <div class="ucapan5">
+          <p class="isiucapan5">Aku cinta kamu sayang selama-lamanya. Kamu adalah segalanya bagiku, dan tidak ada yang lebih penting daripada kamu dalam hidupku. i love you sayang, selamanya <3</p>
+        </div>
+      </section>
     </div>
   </div>
 
@@ -114,7 +126,6 @@
         ', ' + waktu.getDate() + ' ' + bulan[waktu.getMonth()] +
         ' ' + waktu.getFullYear() + '</span><span class="line line2"></span></span></h1><p class="ml2"> ' + jam + ':' +
         menit + ' ' + ampm + ' </p>';
-
     }
   </script>
   <script>
@@ -132,50 +143,18 @@
     textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
     anime.timeline({
-        loop: false
+        loop: true
       })
       .add({
         targets: '.ml1 .letter',
-        scale: [0.3, 1],
+        scale: [0, 1],
         opacity: [0, 1],
-        translateZ: 0,
         easing: "easeOutExpo",
-        duration: 600,
-        delay: (el, i) => 70 * (i + 1)
-      }).add({
-        targets: '.ml1 .line',
-        scaleX: [0, 1],
-        opacity: [0.5, 1],
-        easing: "easeOutExpo",
-        duration: 700,
-        offset: '-=875',
-        delay: (el, i, l) => 80 * (l - i)
+        duration: 1500,
+        delay: (el, i) => 70 * i
       }).add({
         targets: '.ml1',
-        opacity: 1,
-        duration: 1000,
-        easing: "easeOutExpo",
-        delay: 1000
-      });
-  </script>
-  <script>
-    var textWrapper = document.querySelector('.ml2');
-    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-
-    anime.timeline({
-        loop: false
-      })
-      .add({
-        targets: '.ml2 .letter',
-        scale: [4, 1],
-        opacity: [0, 1],
-        translateZ: 0,
-        easing: "easeOutExpo",
-        duration: 950,
-        delay: 1400
-      }).add({
-        targets: '.ml2',
-        opacity: 1,
+        opacity: 0,
         duration: 1000,
         easing: "easeOutExpo",
         delay: 1000
