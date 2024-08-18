@@ -52,6 +52,15 @@ html {
   font-family: 'Poppins', sans-serif;
 }
 
+.kecil {
+  font-size: 0.8em; /* Adjust as needed for text size */
+}
+
+.gambar.kecil {
+  width: 50%; /* Adjust as needed for image size */
+  height: auto;
+}
+
 .kontener {
   padding: 20px;
   height: 100%;
