@@ -211,7 +211,7 @@ section.after {
 }
 
 .page-halaman1 section.halaman4 {
-  -webkit-transition-delay: 0.15s;
+  -webkit-transition-delay: 0.1s;
 }
 
 .page-halaman1 section.halaman5 {
@@ -231,7 +231,7 @@ section.after {
 }
 
 .page-halaman2 section.halaman4 {
-  -webkit-transition-delay: 0.5s;
+  -webkit-transition-delay: 0.1s;
 }
 
 .page-halaman2 section.halaman5 {
@@ -261,7 +261,7 @@ section.after {
 
 .buka_menu section.halaman4 {
   -webkit-transform: translateY(280px);
-  -webkit-transition-delay: 0.05s;
+  -webkit-transition-delay: 0s;
 }
 
 .buka_menu section.halaman5 {
